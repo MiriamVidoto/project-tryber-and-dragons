@@ -6,7 +6,7 @@ export default class Elf extends Race {
   
   constructor(name: string, dexterity: number) {
     super(name, dexterity);
-    this._maxLifePoints = 90;
+    this._maxLifePoints = 99;
     Elf._countInstancesCreated += 1;
   }
 
